@@ -1,0 +1,11 @@
+.menu{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+.menu li {
+    padding: 10px;
+}
+.menu > li > a{
+    text-decoration: none;
+}

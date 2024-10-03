@@ -1,0 +1,16 @@
+
+
+.menu{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.menu li{
+    padding: 10px;
+
+}
+
+.menu > li > a{
+    text-decoration: none;
+    color: black;
+}

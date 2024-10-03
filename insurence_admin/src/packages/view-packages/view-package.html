@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./view-package.css">
+    <script type="text/javascript" src="./view-package.js"></script>
+    <script type="text/javascript">
+
+
+    </script>
+</head>
+
+<body class="bg-light" onload="onLoad()">
+    <div>
+        <div class="row" style="margin: 0px; padding: 0px;">
+            <div class="col-10 mt-2">
+                <h4>Packages List</h4>
+            </div>
+            <div class="col-2 mt-2">
+                <input type="button" class="btn btn-primary" value="+ New Packages" onclick="showHideAddNewPackage()">
+            </div>
+
+        </div>
+        <div class="card mt-2" style="height: 85vh;">
+            <table class="table table-bordered table-hover table-striped">
+                <thead class="table-light">
+                    <tr>
+                        <th>S.NO</th>
+                        <th>Title</th>
+                        <th>Description</th>
+                        <th>Amount</th>
+                        <th>Days</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="tabledata">
+                    <!-- <tr>
+                        <td id="packageId0"></td>
+                        <td id="title0"></td>
+                        <td id="desc0"></td>
+                        <td id="amount0"></td>
+                        <td id="days0"></td>
+                        <td>
+                            <label for="" style="cursor: pointer;">&#</label>
+                            <label for="" style="cursor: pointer;"></label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="packageId1"></td>
+                        <td id="title1"></td>
+                        <td id="desc1"></td>
+                        <td id="amount1"></td>
+                        <td id="days1"></td>
+                        <td>
+                            <label for="" style="cursor: pointer;">&#</label>
+                            <label for="" style="cursor: pointer;"></label>
+                        </td>
+                    </tr> -->
+                </tbody>
+            </table>
+        </div>
+
+        <div id="addNewPackage" class="d-none">
+            <div class="popup-drop"></div>
+            <div class="popup border ">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="row">
+                            <div class="col-11">
+                                Add New Package
+                            </div>
+                            <div class="col-1" style="cursor: pointer;" onclick="showHideAddNewPackage()">
+                                X
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <iframe src=""
+                            style="width: 100%;height: 57vh;border: none;" id="packageFrame"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

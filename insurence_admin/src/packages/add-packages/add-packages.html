@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./add-packages.css">
+    <script type="text/javascript" src="./add-packages.js"></script>
+</head>
+
+<body onload="onLoad()">
+    <div class="bg-white">
+        <h2>Basic Information
+            <label for="" id="currentTime" style="font-size: 14px;"></label>
+        </h2>
+        <div class="row" style="padding: 0px; margin: 0px;">
+            <input type="hidden" id="pid">
+
+            <div class="col-4">
+                <label for="">Title</label>
+                <input type="text" class="form-control" id="pTitle">
+            </div>
+            <div class="col-4">
+                <label for="">Amount</label>
+                <input type="text" class="form-control" id="pAmount">
+            </div>
+            <div class="col-4">
+                <label for="">Days</label>
+                <input type="text" class="form-control" id="pDays">
+            </div>
+        </div>
+        <div class="mb-2">
+            <label for="">Description</label>
+            <textarea  cols="30" rows="5" class="form-control" id="pDescrption" ></textarea>
+        </div>
+        
+        <div class="row">
+            <div class="col-6">
+                <div class="alert alert-success d-none" id="successMessage" style="font-size: 10px;">Package Added Successfullu......!</div>
+            </div>
+            <div class="col-5">
+                <input type="button" id="btnsave"  class="btn btn-primary" value="Save" onclick="addPackage()">
+                <input type="button" class="btn btn-danger" value="Cancle">
+            </div>
+        </div>
+        
+    </div>
+
+</body>
+
+</html>

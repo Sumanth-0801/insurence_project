@@ -1,0 +1,17 @@
+.popup{
+    position: fixed;
+    top: 22%;
+    left: 25%;
+    height: 70vh;
+    width: 500px;
+}
+
+.popup-drop{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+    opacity: 0.5;
+}

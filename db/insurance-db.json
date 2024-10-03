@@ -1,0 +1,82 @@
+{
+  "packages": [
+    {
+      "id": "1",
+      "title": "mansoon",
+      "desc": "M desc",
+      "amount": 25000,
+      "days": 12
+    },
+    {
+      "id": "2",
+      "title": "winter",
+      "desc": "W desc",
+      "amount": 25000,
+      "days": 12
+    },
+    {
+      "id": "3",
+      "title": "summer",
+      "desc": "S desc",
+      "amount": 25000,
+      "days": 12
+    },
+    {
+      "id": "2ad3",
+      "title": "Spring",
+      "desc": "testing",
+      "amount": "22000",
+      "days": "100"
+    },
+    {
+      "id": "c216",
+      "title": "hello",
+      "desc": "test",
+      "amount": "100",
+      "days": "100"
+    },
+    {
+      "id": "3675",
+      "title": "",
+      "desc": "",
+      "amount": "",
+      "days": ""
+    },
+    {
+      "id": "f934",
+      "title": "mansoon",
+      "desc": "M desessss",
+      "amount": "25000",
+      "days": "12"
+    }
+  ],
+  "agents": [
+    {
+      "id": "2053",
+      "FirstName": "sumanth",
+      "LastName": "malleboina",
+      "Email": "s.malleboina@aeronutrix.com",
+      "Gender": "male",
+      "qualification": "three",
+      "password": "sumanth@123"
+    },
+    {
+      "id": "94c4",
+      "FirstName": "reshma",
+      "LastName": "vanka",
+      "Email": "reshma@gmail.com",
+      "Gender": "female",
+      "qualification": "three",
+      "password": "Reshma@123"
+    },
+    {
+      "id": "9148",
+      "FirstName": "revanth",
+      "LastName": "malleboina",
+      "Email": "r@gmail.com",
+      "Gender": "male",
+      "qualification": "three",
+      "password": "Revanth@123"
+    }
+  ]
+}
